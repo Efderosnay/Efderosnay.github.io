@@ -66,12 +66,12 @@ h1{
   color: white;
   font-size: 150px; 
 }
-.quote{
+h3{
   font-family: 'Patrick Hand SC', cursive;
   font-size: 50px;
   color: white;
   position: absolute;
-  top:32%;
+  top:50%;
   left: 16%;
 }
 .component > h2 {
