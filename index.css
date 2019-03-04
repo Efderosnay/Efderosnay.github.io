@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Delius+Swash+Caps');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand+SC');
 @import url('https://fonts.googleapis.com/css?family=Oregano');
-
 *{
   position: relative;
   box-sizing: border-box;
@@ -23,7 +22,6 @@ html, body {
   background-color: black;
   padding: 0;
   height: 120px;
-
 }
 .logo {
   position: absolute;
@@ -68,12 +66,12 @@ h1{
   color: white;
   font-size: 150px; 
 }
-h3{
+.quote{
   font-family: 'Patrick Hand SC', cursive;
   font-size: 50px;
   color: white;
   position: absolute;
-  top:50%;
+  top:32%;
   left: 16%;
 }
 .component > h2 {
@@ -265,7 +263,56 @@ position: absolute;
 top:8%;
 left:-90%;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: gray;
+  padding: 0;
+  height: 60px;
+}
+.footer-right a:hover {
+    background-color:white;
+    color: black;
+  }
+.footer-right a.active {
+  background-color: white;
+  color: black;
+}
 
+.footer-right {
+  /*float: right;*/
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  font-family: 'Pacifico', cursive;
+  position: absolute;
+  top: 20%;
+  right: 5%;
+}
+.copywrite{
+  font-family: 'Pacifico', cursive;
+  font-size: 80%;
+  position: absolute;
+  bottom:25%;
+  left: 2%;
+}
+.contactInfo{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 50px;
+  position: absolute;
+  top:5%;
+  left: 60%;
+}
+.email{
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 50px;
+  position: absolute;
+  top:40%;
+  left: 53%;
+}
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
